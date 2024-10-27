@@ -1,0 +1,80 @@
+/*Colors and fonts */
+body {
+	background: #F2E5BF;
+	color: rgb(50,50,50);
+	font-family: "Libre Franklin", sans-serif;
+	font-size: 16px;
+}
+h1{
+	font-family: "Arima", system-ui;
+	color: #CB6040;
+	font-size: 32px;
+	font-weight:700;
+}
+h2{
+	font-family: "Arima", sans-serif;
+	color: #257180;
+	font-size: 24px;
+	font-weight: 500;
+}
+a{
+	text-decoration: none;
+	color: #FD8B51;
+}
+a:hover {
+	color: #CB6040;
+}
+
+
+/*Custume design with class (90% of your design) */
+
+.container {
+	width:700px;
+	margin:40px auto;
+}
+
+@media (max-width: 760px){
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+}
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgda(0,0,0,0.3);
+	border-radius: 15px;
+	margin: 20px;
+	text-align:center;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color:#257180;
+	color:white;
+	padding: 15px 20px;
+	border-radius: 15px;
+}
+
+.btn-blue:hover{
+	background-color: #1A4870;
+	color: white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+
+
+#introduction p{
+	margin-bottom: 40px;
+}
+
